@@ -1,0 +1,34 @@
+{
+  "QPushButton": [
+    {
+      "name": "minimize_window_button",
+      "icon": "Qss/icons/icons/feather/window_minimize.png"
+    },
+    {
+      "name": "restore_window_button",
+      "icon": "Qss/icons/icons/feather/maximize-2.png"
+    },
+    {
+      "name": "close_window_button",
+      "icon": "Qss/icons/icons/feather/window_close.png"
+    },
+    {
+      "name": "pushButton_2",
+      "icon": "Qss/icons/icons/material_design/login.png"
+    },
+    {
+      "name": "pushButton_3",
+      "icon": "Qss/icons/icons/material_design/assignment_ind.png"
+    }
+  ],
+  "QLabel": [
+    {
+      "name": "label_4",
+      "pixmap": "Qss/icons/icons/font_awesome/regular/user.png"
+    },
+    {
+      "name": "label_5",
+      "pixmap": "Qss/icons/icons/font_awesome/regular/user.png"
+    }
+  ]
+}
