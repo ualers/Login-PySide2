@@ -1,0 +1,34 @@
+{
+    "QMainWindow": [
+        {
+            "tittle":"Splash Screen Software AI",
+            "frameless": true,
+            "transluscentBg": true
+            
+            
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#625d94",
+                            "Text-color": "#fafafa",
+                            "Accent-color": "#1e0880",
+                            "Theme-name": "Dark-Night",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "UrobotSoftware",
+                "ApplicationName": "SoftwareAI",
+                "OrginizationDormain": "Urobotsoftware.sellix.io"
+            }
+        }
+    ]
+
+}
