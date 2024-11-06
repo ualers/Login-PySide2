@@ -1,0 +1,100 @@
+{
+    "QMainWindow": [
+        {
+            "tittle":"Software AI Login",
+            "icon":":/feather/icons/feather/user.png",
+            "frameless": true,
+            "transluscentBg": true
+        },
+        {
+			"shadow":[
+				{
+					"color": "#555",
+					"blurRadius": 20,
+					"xOffset": 0,
+					"yOffset": 0,
+					"centralWidget": "centralwidget"
+				}
+			]
+		},
+        {
+			"navigation":[
+				{
+					"moveWindow": "widget"
+				},
+				{
+                    "minimize":"minimize_window_button",
+					"close": "close_window_button",
+					"restore":[
+						{	
+							"buttonName": "restore_window_button",
+							"normalIcon": ":/feather/icons/feather/maximize-2.png",
+							"maximizedIcon": ":/feather/icons/feather/minimize-2.png"
+						}
+					]
+				}
+
+			]
+		}
+    ],
+    "QCustomQStackedWidget":[
+		{
+			"name":"stackedWidget",
+			"navigation":[
+				{
+					"nextPage":"pushButton",
+					"previousPage": "pushButton_4"
+
+				}
+			],
+            "transitionAnimation":[
+				{
+					
+					"slide":[
+						{
+							"active":true,
+							"duration": 1000,
+							"direction": "horizontal",
+							"easingCurve": "OutBack"
+						}
+					]
+				}
+			]
+
+		}
+	],
+    "QCustomCheckBox":[
+        {
+			"name":"checkBox",
+			"bgColor":"#2e3739",
+			"circleColor":"#1dbf73",
+			"activeColor":"#7b7b7b",
+			"animationEasingCurve":"InOutCubic",
+			"animationDuration":500
+		}
+        
+	],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#444d4d",
+                            "Text-color": "#010405",
+                            "Accent-color": "#000000",
+                            "Theme-name": "Dark-Night",
+                            "Default-Theme": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "UrobotSoftware",
+                "ApplicationName": "UrobotSoftware Company",
+                "OrginizationDormain": "Urobotsoftware.sellix.io"
+            }
+        }
+    ]
+
+}
