@@ -1,0 +1,6 @@
+
+# Line comands for Convert
+pyside2-rcc Qss/icons/_icons.qrc -o src/icons_interpreter.py
+pyside6-rcc Qss/icons/_icons.qrc -o src/icons_interpreter.py
+Custom_Widgets --convert-ui ui --qt-library PySide2
+Custom_Widgets --convert-ui ui --qt-library PySide6
